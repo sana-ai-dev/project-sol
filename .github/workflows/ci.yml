@@ -1,0 +1,17 @@
+name: CI
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Required files present
+        run: |
+          for f in README.md LICENSE SECURITY.md docs/verification.md docs/architecture.md; do
+            test -f "$f"
+          done
+      - name: Docs-only repository
+        run: |
+          echo "No application install or test step - project-sol is a documentation hub."
