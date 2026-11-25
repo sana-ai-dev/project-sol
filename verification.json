@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-25T23:17:34Z",
+  "generated_at": "2026-11-25T23:18:10Z",
   "generator": "GitHub Buddy",
   "verified_commit": "d0d518c1c03139f95cdaf745aed7e68c0a0be513",
   "mixed_commits": false,
@@ -10,7 +10,7 @@
     "os_system": "Windows",
     "os_release": "10",
     "machine": "AMD64",
-    "python": "3.11.9 (C:\\Users\\Sana\\AppData\\Local\\Programs\\Python\\Python311\\python.exe)",
+    "python": "3.11.9 ([redacted-user-path]\\AppData\\Local\\Programs\\Python\\Python311\\python.exe)",
     "node": "v24.15.0",
     "clean_copy": "temporary directory from git archive HEAD"
   },
