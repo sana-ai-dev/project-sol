@@ -1,0 +1,23 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+credentials*.json
+.npmrc
+.pypirc
+node_modules/
+.venv/
+venv/
+__pycache__/
+dist/
+target/
+.DS_Store
+
+# Raw Buddy evidence is local only. Published summaries are verification.json and docs/verification.md.
+.buddy/
