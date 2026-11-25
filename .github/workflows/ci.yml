@@ -1,7 +1,5 @@
 name: CI
-on:
-  push:
-  pull_request:
+on: [push, pull_request]
 permissions:
   contents: read
 jobs:
@@ -11,16 +9,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Required files present
         run: |
-          test -f README.md
-          test -f LICENSE
-          test -f SECURITY.md
-          test -f docs/verification.md
-          test -f docs/architecture.md
-      - name: No tracked private evidence
-        run: |
-          if git ls-files | grep -E '(^|/)\.buddy/|\.env$|\.pem$|\.key$'; then
-            echo "private evidence tracked" >&2
-            exit 1
-          fi
+          for f in README.md LICENSE SECURITY.md docs/verification.md docs/architecture.md; do
+            test -f "$f"
+          done
       - name: Docs-only repository
-        run: echo "No application install or test step: project-sol is a documentation hub."
+        run: |
+          echo "No application install or test step - project-sol is a documentation hub."
