@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-25T23:18:19Z",
+  "generated_at": "2026-11-26T22:09:50Z",
   "generator": "GitHub Buddy",
-  "verified_commit": "37e8833329bfa5eaf8b30af9ab535d7925eb1fb8",
+  "verified_commit": "13cb1c5da28ae144459d2ddd4b12c2276f9375d2",
   "mixed_commits": false,
   "environment": {
-    "date_utc": "2026-11-25T23:18:17Z",
+    "date_utc": "2026-11-26T22:07:54Z",
     "os": "Windows-10-10.0.26200-SP0",
     "os_system": "Windows",
     "os_release": "10",
@@ -23,10 +23,10 @@
     {
       "check": "secrets_scan",
       "status": "passed",
-      "timestamp": "2026-11-25T23:18:15Z",
+      "timestamp": "2026-11-26T22:08:10Z",
       "tool": "gitleaks",
       "tool_version": "8.30.1",
-      "commit": "37e8833329bfa5eaf8b30af9ab535d7925eb1fb8",
+      "commit": "13cb1c5da28ae144459d2ddd4b12c2276f9375d2",
       "working_tree_dirty": false,
       "notes": "Working tree and git history scanned, plus basic pattern checks.",
       "evidence": [
@@ -36,10 +36,10 @@
     {
       "check": "dependency_audit",
       "status": "not_applicable",
-      "timestamp": "2026-11-25T23:18:15Z",
+      "timestamp": "2026-11-26T22:07:51Z",
       "tool": "none",
       "tool_version": "",
-      "commit": "37e8833329bfa5eaf8b30af9ab535d7925eb1fb8",
+      "commit": "13cb1c5da28ae144459d2ddd4b12c2276f9375d2",
       "working_tree_dirty": false,
       "notes": "No supported dependency manifest found (package.json, requirements.txt, pyproject.toml, Cargo.toml, go.mod).",
       "evidence": [
@@ -49,10 +49,10 @@
     {
       "check": "license_file",
       "status": "passed",
-      "timestamp": "2026-11-25T23:18:16Z",
+      "timestamp": "2026-11-26T22:07:52Z",
       "tool": "file-check",
       "tool_version": "",
-      "commit": "37e8833329bfa5eaf8b30af9ab535d7925eb1fb8",
+      "commit": "13cb1c5da28ae144459d2ddd4b12c2276f9375d2",
       "working_tree_dirty": false,
       "notes": "License file present: LICENSE.",
       "evidence": []
@@ -60,10 +60,10 @@
     {
       "check": "dependency_licenses",
       "status": "skipped",
-      "timestamp": "2026-11-25T23:18:16Z",
+      "timestamp": "2026-11-26T22:07:52Z",
       "tool": "none",
       "tool_version": "",
-      "commit": "37e8833329bfa5eaf8b30af9ab535d7925eb1fb8",
+      "commit": "13cb1c5da28ae144459d2ddd4b12c2276f9375d2",
       "working_tree_dirty": false,
       "notes": "No dependency license tool available for this ecosystem. Dependency licenses were NOT reviewed.",
       "evidence": []
@@ -71,10 +71,10 @@
     {
       "check": "clean_install",
       "status": "skipped",
-      "timestamp": "2026-11-25T23:18:17Z",
+      "timestamp": "2026-11-26T22:07:54Z",
       "tool": "none",
       "tool_version": "",
-      "commit": "37e8833329bfa5eaf8b30af9ab535d7925eb1fb8",
+      "commit": "13cb1c5da28ae144459d2ddd4b12c2276f9375d2",
       "working_tree_dirty": false,
       "notes": "No install command detected or provided.",
       "evidence": []
@@ -82,10 +82,10 @@
     {
       "check": "tests",
       "status": "skipped",
-      "timestamp": "2026-11-25T23:18:17Z",
+      "timestamp": "2026-11-26T22:07:55Z",
       "tool": "none",
       "tool_version": "",
-      "commit": "37e8833329bfa5eaf8b30af9ab535d7925eb1fb8",
+      "commit": "13cb1c5da28ae144459d2ddd4b12c2276f9375d2",
       "working_tree_dirty": false,
       "notes": "The project has no tests (none detected). No coverage is claimed.",
       "evidence": []
@@ -93,10 +93,10 @@
     {
       "check": "run",
       "status": "skipped",
-      "timestamp": "2026-11-25T23:18:18Z",
+      "timestamp": "2026-11-26T22:07:55Z",
       "tool": "none",
       "tool_version": "",
-      "commit": "37e8833329bfa5eaf8b30af9ab535d7925eb1fb8",
+      "commit": "13cb1c5da28ae144459d2ddd4b12c2276f9375d2",
       "working_tree_dirty": false,
       "notes": "No start command identified or provided. Start-up was NOT verified.",
       "evidence": []
@@ -104,62 +104,65 @@
     {
       "check": "screenshots",
       "status": "skipped",
-      "timestamp": "2026-11-25T23:18:18Z",
+      "timestamp": "2026-11-26T22:08:56Z",
       "tool": "none",
       "tool_version": "",
-      "commit": "37e8833329bfa5eaf8b30af9ab535d7925eb1fb8",
+      "commit": "13cb1c5da28ae144459d2ddd4b12c2276f9375d2",
       "working_tree_dirty": false,
-      "notes": "No runnable app or browser target; no screenshot was captured.",
+      "notes": "No new application started; this package is documentation only",
       "evidence": []
     },
     {
       "check": "ci",
       "status": "passed",
-      "timestamp": "2026-11-25T23:18:19Z",
-      "tool": "github-actions",
+      "timestamp": "2026-11-26T22:09:50Z",
+      "tool": "GitHub Actions",
       "tool_version": "",
-      "commit": "37e8833329bfa5eaf8b30af9ab535d7925eb1fb8",
+      "commit": "13cb1c5da28ae144459d2ddd4b12c2276f9375d2",
       "working_tree_dirty": false,
-      "notes": "Workflow validated on ci-probe run 45720085793 (success); fixed syntax applied here.",
+      "notes": "PR 3 structure check passed on both triggered runs",
       "evidence": [
-        ".github/workflows/ci.yml"
+        "https://github.com/sana-ai-dev/project-sol/actions/runs/45902922958/job/140192769622",
+        "https://github.com/sana-ai-dev/project-sol/actions/runs/45902889299/job/140192656548"
       ]
     },
     {
       "check": "diagrams",
       "status": "passed",
-      "timestamp": "2026-11-25T23:18:18Z",
+      "timestamp": "2026-11-26T22:08:56Z",
       "tool": "mermaid",
       "tool_version": "",
-      "commit": "37e8833329bfa5eaf8b30af9ab535d7925eb1fb8",
+      "commit": "13cb1c5da28ae144459d2ddd4b12c2276f9375d2",
       "working_tree_dirty": false,
-      "notes": "Architecture, data-flow and branch-flow Mermaid blocks written from real files.",
+      "notes": "Mermaid component, trust-boundary and sequence diagrams added and reviewed",
       "evidence": [
-        "docs/architecture.md"
+        "projects/xara-toolbelt/docs/architecture.md"
       ]
     },
     {
       "check": "docs",
       "status": "passed",
-      "timestamp": "2026-11-25T23:18:18Z",
-      "tool": "file-check",
+      "timestamp": "2026-11-26T22:08:56Z",
+      "tool": "manual",
       "tool_version": "",
-      "commit": "37e8833329bfa5eaf8b30af9ab535d7925eb1fb8",
+      "commit": "13cb1c5da28ae144459d2ddd4b12c2276f9375d2",
       "working_tree_dirty": false,
-      "notes": "Docs and README.buddy.md filled from verified facts; raw evidence stayed in .buddy/.",
+      "notes": "README, architecture, verification and hub links reviewed for public-safe redacted write-up",
       "evidence": [
-        "README.buddy.md"
+        "projects/xara-toolbelt/README.md",
+        "projects/xara-toolbelt/docs/architecture.md",
+        "projects/xara-toolbelt/docs/verification.md"
       ]
     },
     {
       "check": "excalidraw_export",
       "status": "skipped",
-      "timestamp": "2026-11-25T23:18:18Z",
+      "timestamp": "2026-11-26T22:08:56Z",
       "tool": "none",
       "tool_version": "",
-      "commit": "37e8833329bfa5eaf8b30af9ab535d7925eb1fb8",
+      "commit": "13cb1c5da28ae144459d2ddd4b12c2276f9375d2",
       "working_tree_dirty": false,
-      "notes": "No recognised Excalidraw CLI; Mermaid used as the honest fallback.",
+      "notes": "No recognised Excalidraw CLI available; Mermaid is the source of truth",
       "evidence": []
     }
   ]
