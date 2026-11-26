@@ -7,15 +7,15 @@
 - Blocking safety checks: gitleaks pass, dependency audit N/A, licence file pass.
 - Mermaid architecture and branch-flow diagrams.
 - Evidence manifest generated from recorded checks.
+- `v0.1.0` released with CI green, squash PR into `staging` and merge-commit release PR into `main`.
+- Redacted xara-toolbelt write-up added as support material, not a raw code drop.
 
 ## Next
 
-- Sana nominates flagship/viral projects.
-- Publish `staging` and the scaffold feature branch, then squash into `staging`.
-- Merge `staging` to `main` as a merge commit and tag `v0.1.0`.
+- Sana nominates a flagship or viral project, if any.
+- Publish the xara-toolbelt write-up through the same review gate.
+- Consider a static docs site only if Sana asks for Pages.
 
 ## Ideas
-
-- Redacted xara-toolbelt write-up as demonstration material, not a raw code drop.
 - Study the Claude Code plugin/marketplace shortlist under the sourcing gate.
 - Static docs site if and when Sana asks for Pages.

@@ -25,6 +25,7 @@ cd project-sol
 - [Roadmap](docs/roadmap.md)
 - [Scout summary](docs/scout-summary.md)
 - [Verification report](docs/verification.md)
+- [Xara toolbelt write-up](projects/xara-toolbelt/README.md)
 
 Agents: [AGENTS.md](AGENTS.md) holds the repo conventions.
 
@@ -33,7 +34,7 @@ Agents: [AGENTS.md](AGENTS.md) holds the repo conventions.
 - No application install, test or start command exists; those checks are skipped, not passed.
 - No browser screenshot was captured; the architecture uses Mermaid blocks.
 - Dependency licence review was skipped (no tool for this ecosystem).
-- No flagship project has been nominated for publication yet.
+- No flagship or viral project has been nominated. Xara toolbelt is published as redacted support material only.
 
 ## License
 

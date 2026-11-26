@@ -5,7 +5,7 @@ This monorepo is the public hub for `sana.ai.dev`. Each curated item gets a subf
 ## Current status
 
 - `dashboard/` — not published (private LAN infrastructure and personal data).
-- `xara-toolbelt/` — write-up candidate; code package pending redaction and standalone proof.
+- `xara-toolbelt/` — published as a redacted write-up and support material; no source package is included. See [projects/xara-toolbelt/README.md](xara-toolbelt/README.md).
 - `pi-ssh/` — not published (private host/key details).
 
 External repositories are studied under the sourcing gate and wrapped or integrated with attribution. Nothing is vendored or copied in blind.
